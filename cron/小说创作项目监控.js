@@ -256,7 +256,7 @@ async function checkNovelReview() {
 function generateReport(progress, outlineReviewResult, reviewResult, creationProgress) {
   const timestamp = new Date().toLocaleString('zh-CN');
   
-  return `📚 小说创作项目监控报告 (${timestamp})
+  const reportText = `📚 小说创作项目监控报告 (${timestamp})
 
 🔍 **项目进度**
 - 待创作人物总数：${progress.todoCount}个
@@ -310,6 +310,20 @@ outlineReviewResult && outlineReviewResult.passed ?
 3. **评审流程**：评审Agent严格评审，不合格就驳回重写` :
 '等待新的创作任务'}
 `;
+  
+  // 保存报告到文件
+  const reportDir = path.join(__dirname, 'delivery_reports');
+  if (!fs.existsSync(reportDir)) {
+    fs.mkdirSync(reportDir, { recursive: true });
+  }
+  
+  const fileName = `小说创作项目监控_${new Date().toISOString().replace(/:/g, '-').slice(0, 19)}.txt`;
+  const reportPath = path.join(reportDir, fileName);
+  fs.writeFileSync(reportPath, reportText);
+  
+  console.log(`✅ 监控报告已保存到: ${reportPath}`);
+  
+  return reportText;
 }
 
 function parseProgress(content) {
