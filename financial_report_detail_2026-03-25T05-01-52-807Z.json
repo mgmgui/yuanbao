@@ -1,0 +1,693 @@
+{
+  "timestamp": "2026/3/25 13:01:52",
+  "categoryReports": [
+    {
+      "category": "债券",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "新浪财经",
+          "title": "信用债市场保持稳定",
+          "summary": "信用债市场保持稳定，违约风险可控",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "债券"
+        },
+        {
+          "source": "新浪财经",
+          "title": "信用债市场保持稳定",
+          "summary": "信用债市场保持稳定，违约风险可控",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "债券"
+        },
+        {
+          "source": "财经网",
+          "title": "国债收益率小幅上行",
+          "summary": "国债收益率小幅上行，市场对利率政策预期调整",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "债券"
+        }
+      ],
+      "analysis": {
+        "bullish": 2,
+        "neutral": 1,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "中高仓位",
+        "percentage": "60%",
+        "reasoning": "市场稳定收益预期",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [
+          "市场相对稳定",
+          "市场相对稳定"
+        ],
+        "probability": "60-70%"
+      },
+      "summary": "债券市场分析:\n市场情绪: 积极\n积极新闻: 2条\n中性新闻: 1条\n消极新闻: 0条\n最新动态: 信用债市场保持稳定\n"
+    },
+    {
+      "category": "黄金",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "黄金网",
+          "title": "黄金价格小幅波动",
+          "summary": "黄金价格小幅波动，避险情绪影响价格",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "黄金"
+        },
+        {
+          "source": "东方财富",
+          "title": "黄金市场避险需求增加",
+          "summary": "黄金市场避险需求增加，国际局势影响",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "黄金"
+        },
+        {
+          "source": "财经网",
+          "title": "黄金期货价格上涨",
+          "summary": "黄金期货价格上涨，市场预期通胀上升",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "黄金"
+        }
+      ],
+      "analysis": {
+        "bullish": 2,
+        "neutral": 1,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "高仓位",
+        "percentage": "70%",
+        "reasoning": "避险情绪或价格上涨预期",
+        "riskLevel": "较高"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [
+          "市场波动较大",
+          "价格上涨预期"
+        ],
+        "probability": "60-70%"
+      },
+      "summary": "黄金市场分析:\n市场情绪: 积极\n积极新闻: 2条\n中性新闻: 1条\n消极新闻: 0条\n最新动态: 黄金价格小幅波动\n"
+    },
+    {
+      "category": "商品",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "期货网",
+          "title": "大宗商品价格回落",
+          "summary": "大宗商品价格回落，市场需求减弱",
+          "sentiment": "negative",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "商品"
+        },
+        {
+          "source": "财经网",
+          "title": "铜期货价格小幅下跌",
+          "summary": "铜期货价格小幅下跌，供应过剩影响",
+          "sentiment": "negative",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "商品"
+        },
+        {
+          "source": "财经网",
+          "title": "铜期货价格小幅下跌",
+          "summary": "铜期货价格小幅下跌，供应过剩影响",
+          "sentiment": "negative",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "商品"
+        }
+      ],
+      "analysis": {
+        "bullish": 0,
+        "neutral": 0,
+        "bearish": 3,
+        "total": 3,
+        "sentiment": "消极"
+      },
+      "positionRecommendation": {
+        "position": "低仓位",
+        "percentage": "40%",
+        "reasoning": "商品价格下跌预期",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "下跌",
+        "confidence": "较高",
+        "factors": [
+          "价格下跌风险",
+          "价格下跌风险"
+        ],
+        "probability": "60-70%"
+      },
+      "summary": "商品市场分析:\n市场情绪: 消极\n积极新闻: 0条\n中性新闻: 0条\n消极新闻: 3条\n最新动态: 大宗商品价格回落\n"
+    },
+    {
+      "category": "石油",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "石油网",
+          "title": "原油价格小幅上涨",
+          "summary": "原油价格小幅上涨，OPEC减产预期",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "石油"
+        },
+        {
+          "source": "财经网",
+          "title": "油价受国际局势影响",
+          "summary": "油价受国际局势影响，波动加剧",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "石油"
+        },
+        {
+          "source": "石油网",
+          "title": "原油价格小幅上涨",
+          "summary": "原油价格小幅上涨，OPEC减产预期",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "石油"
+        }
+      ],
+      "analysis": {
+        "bullish": 2,
+        "neutral": 1,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "高仓位",
+        "percentage": "70%",
+        "reasoning": "避险情绪或价格上涨预期",
+        "riskLevel": "较高"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [
+          "价格上涨预期",
+          "价格上涨预期"
+        ],
+        "probability": "60-70%"
+      },
+      "summary": "石油市场分析:\n市场情绪: 积极\n积极新闻: 2条\n中性新闻: 1条\n消极新闻: 0条\n最新动态: 原油价格小幅上涨\n"
+    },
+    {
+      "category": "股票",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "东方财富",
+          "title": "股市整体小幅上涨",
+          "summary": "股市整体小幅上涨，市场情绪向好",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "股票"
+        },
+        {
+          "source": "新浪财经",
+          "title": "股票市场成交量放大",
+          "summary": "股票市场成交量放大，资金流入明显",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "股票"
+        },
+        {
+          "source": "新浪财经",
+          "title": "股票市场成交量放大",
+          "summary": "股票市场成交量放大，资金流入明显",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.804Z",
+          "category": "股票"
+        }
+      ],
+      "analysis": {
+        "bullish": 3,
+        "neutral": 0,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现积极但需谨慎",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [
+          "价格上涨预期"
+        ],
+        "probability": "60-70%"
+      },
+      "summary": "股票市场分析:\n市场情绪: 积极\n积极新闻: 3条\n中性新闻: 0条\n消极新闻: 0条\n最新动态: 股市整体小幅上涨\n"
+    },
+    {
+      "category": "A股",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "新浪财经",
+          "title": "创业板指数震荡整理",
+          "summary": "创业板指数震荡整理，资金谨慎",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "A股"
+        },
+        {
+          "source": "东方财富",
+          "title": "上证指数小幅上涨",
+          "summary": "上证指数小幅上涨，市场信心恢复",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "A股"
+        },
+        {
+          "source": "新浪财经",
+          "title": "创业板指数震荡整理",
+          "summary": "创业板指数震荡整理，资金谨慎",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "A股"
+        }
+      ],
+      "analysis": {
+        "bullish": 1,
+        "neutral": 2,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "中性"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现中性",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "震荡整理",
+        "confidence": "中等",
+        "factors": [
+          "市场波动较大",
+          "价格上涨预期",
+          "市场波动较大"
+        ],
+        "probability": "50%"
+      },
+      "summary": "A股市场分析:\n市场情绪: 中性\n积极新闻: 1条\n中性新闻: 2条\n消极新闻: 0条\n最新动态: 创业板指数震荡整理\n"
+    },
+    {
+      "category": "美股",
+      "newsCount": 2,
+      "newsItems": [
+        {
+          "source": "CNBC",
+          "title": "标普500指数震荡整理",
+          "summary": "标普500指数震荡整理，市场谨慎",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "美股"
+        },
+        {
+          "source": "CNBC",
+          "title": "标普500指数震荡整理",
+          "summary": "标普500指数震荡整理，市场谨慎",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "美股"
+        }
+      ],
+      "analysis": {
+        "bullish": 0,
+        "neutral": 2,
+        "bearish": 0,
+        "total": 2,
+        "sentiment": "中性"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现中性",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "震荡整理",
+        "confidence": "中等",
+        "factors": [
+          "市场波动较大",
+          "市场波动较大"
+        ],
+        "probability": "50%"
+      },
+      "summary": "美股市场分析:\n市场情绪: 中性\n积极新闻: 0条\n中性新闻: 2条\n消极新闻: 0条\n最新动态: 标普500指数震荡整理\n"
+    },
+    {
+      "category": "巴西",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "巴西财经",
+          "title": "巴西股市小幅上涨",
+          "summary": "巴西股市小幅上涨，经济复苏预期",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "巴西"
+        },
+        {
+          "source": "国际财经",
+          "title": "巴西市场资金流入",
+          "summary": "巴西市场资金流入，外资看好",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "巴西"
+        },
+        {
+          "source": "国际财经",
+          "title": "巴西市场资金流入",
+          "summary": "巴西市场资金流入，外资看好",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "巴西"
+        }
+      ],
+      "analysis": {
+        "bullish": 3,
+        "neutral": 0,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现积极但需谨慎",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [
+          "价格上涨预期"
+        ],
+        "probability": "60-70%"
+      },
+      "summary": "巴西市场分析:\n市场情绪: 积极\n积极新闻: 3条\n中性新闻: 0条\n消极新闻: 0条\n最新动态: 巴西股市小幅上涨\n"
+    },
+    {
+      "category": "日本",
+      "newsCount": 2,
+      "newsItems": [
+        {
+          "source": "新浪财经",
+          "title": "日本股市震荡整理",
+          "summary": "日本股市震荡整理，投资者谨慎",
+          "sentiment": "neutral",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "日本"
+        },
+        {
+          "source": "日本财经",
+          "title": "日经225指数小幅下跌",
+          "summary": "日经225指数小幅下跌，日元贬值影响",
+          "sentiment": "negative",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "日本"
+        }
+      ],
+      "analysis": {
+        "bullish": 0,
+        "neutral": 1,
+        "bearish": 1,
+        "total": 2,
+        "sentiment": "中性"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现中性",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "震荡整理",
+        "confidence": "中等",
+        "factors": [
+          "市场波动较大",
+          "价格下跌风险"
+        ],
+        "probability": "50%"
+      },
+      "summary": "日本市场分析:\n市场情绪: 中性\n积极新闻: 0条\n中性新闻: 1条\n消极新闻: 1条\n最新动态: 日本股市震荡整理\n"
+    },
+    {
+      "category": "韩国",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "国际财经",
+          "title": "韩国市场外资流入",
+          "summary": "韩国市场外资流入，经济增长稳定",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "韩国"
+        },
+        {
+          "source": "国际财经",
+          "title": "韩国市场外资流入",
+          "summary": "韩国市场外资流入，经济增长稳定",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "韩国"
+        },
+        {
+          "source": "国际财经",
+          "title": "韩国市场外资流入",
+          "summary": "韩国市场外资流入，经济增长稳定",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "韩国"
+        }
+      ],
+      "analysis": {
+        "bullish": 3,
+        "neutral": 0,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现积极但需谨慎",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [],
+        "probability": "60-70%"
+      },
+      "summary": "韩国市场分析:\n市场情绪: 积极\n积极新闻: 3条\n中性新闻: 0条\n消极新闻: 0条\n最新动态: 韩国市场外资流入\n"
+    },
+    {
+      "category": "印度",
+      "newsCount": 3,
+      "newsItems": [
+        {
+          "source": "国际财经",
+          "title": "印度市场表现强劲",
+          "summary": "印度市场表现强劲，外资积极",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "印度"
+        },
+        {
+          "source": "国际财经",
+          "title": "印度市场表现强劲",
+          "summary": "印度市场表现强劲，外资积极",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "印度"
+        },
+        {
+          "source": "国际财经",
+          "title": "印度市场表现强劲",
+          "summary": "印度市场表现强劲，外资积极",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "印度"
+        }
+      ],
+      "analysis": {
+        "bullish": 3,
+        "neutral": 0,
+        "bearish": 0,
+        "total": 3,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现积极但需谨慎",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [],
+        "probability": "60-70%"
+      },
+      "summary": "印度市场分析:\n市场情绪: 积极\n积极新闻: 3条\n中性新闻: 0条\n消极新闻: 0条\n最新动态: 印度市场表现强劲\n"
+    },
+    {
+      "category": "亚洲市场",
+      "newsCount": 2,
+      "newsItems": [
+        {
+          "source": "亚洲财经",
+          "title": "亚洲市场整体上涨",
+          "summary": "亚洲市场整体上涨，资金流入明显",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "亚洲市场"
+        },
+        {
+          "source": "亚洲财经",
+          "title": "亚洲市场整体上涨",
+          "summary": "亚洲市场整体上涨，资金流入明显",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "亚洲市场"
+        }
+      ],
+      "analysis": {
+        "bullish": 2,
+        "neutral": 0,
+        "bearish": 0,
+        "total": 2,
+        "sentiment": "积极"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现积极但需谨慎",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "上涨",
+        "confidence": "较高",
+        "factors": [
+          "价格上涨预期",
+          "价格上涨预期"
+        ],
+        "probability": "60-70%"
+      },
+      "summary": "亚洲市场市场分析:\n市场情绪: 积极\n积极新闻: 2条\n中性新闻: 0条\n消极新闻: 0条\n最新动态: 亚洲市场整体上涨\n"
+    },
+    {
+      "category": "可转债",
+      "newsCount": 2,
+      "newsItems": [
+        {
+          "source": "转债网",
+          "title": "可转债市场活跃",
+          "summary": "可转债市场活跃，投资机会增多",
+          "sentiment": "positive",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "可转债"
+        },
+        {
+          "source": "新浪财经",
+          "title": "转债投资风险上升",
+          "summary": "转债投资风险上升，需谨慎",
+          "sentiment": "negative",
+          "timestamp": "2026-03-25T05:01:52.805Z",
+          "category": "可转债"
+        }
+      ],
+      "analysis": {
+        "bullish": 1,
+        "neutral": 0,
+        "bearish": 1,
+        "total": 2,
+        "sentiment": "中性"
+      },
+      "positionRecommendation": {
+        "position": "中仓位",
+        "percentage": "50%",
+        "reasoning": "市场表现中性",
+        "riskLevel": "中等"
+      },
+      "tomorrowPrediction": {
+        "trend": "震荡整理",
+        "confidence": "中等",
+        "factors": [],
+        "probability": "50%"
+      },
+      "summary": "可转债市场分析:\n市场情绪: 中性\n积极新闻: 1条\n中性新闻: 0条\n消极新闻: 1条\n最新动态: 可转债市场活跃\n"
+    }
+  ],
+  "overallRecommendation": {
+    "overallSentiment": "积极",
+    "overallPosition": "中高仓位",
+    "overallPercentage": "60%",
+    "bullishCount": 22,
+    "bearishCount": 5,
+    "totalNews": 35
+  },
+  "tomorrowPrediction": {
+    "overallTrend": "上涨",
+    "bullishCategories": [
+      "债券",
+      "黄金",
+      "石油",
+      "股票",
+      "巴西",
+      "韩国",
+      "印度",
+      "亚洲市场"
+    ],
+    "bearishCategories": [
+      "商品"
+    ],
+    "neutralCategories": [
+      "A股",
+      "美股",
+      "日本",
+      "可转债"
+    ],
+    "confidence": "较高",
+    "reasoning": "多数市场表现积极"
+  },
+  "recommendations": [
+    "总体仓位建议: 中高仓位 (60%)",
+    "市场总体情绪: 积极",
+    "建议适当增加仓位，重点关注积极市场",
+    "可关注黄金、石油等避险资产",
+    "积极市场: 债券, 黄金, 石油, 股票, 巴西, 韩国, 印度, 亚洲市场",
+    "谨慎市场: 商品",
+    "明日市场预测: 上涨 (置信度: 较高)"
+  ]
+}

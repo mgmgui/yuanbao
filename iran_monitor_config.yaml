@@ -1,0 +1,64 @@
+# 伊朗战况监控系统配置
+name: "伊朗战况新闻监控"
+description: "每半小时监控伊朗冲突相关新闻并生成报告"
+version: "1.0.0"
+
+# 监控频率
+interval: "30 minutes"
+
+# 搜索关键词
+search_keywords:
+  - "Iran conflict news"
+  - "Iran war updates"
+  - "Iran-Israel tensions"
+  - "Middle East conflict Iran"
+  - "Iran military situation"
+  - "Iran sanctions"
+  - "Iran oil exports"
+
+# 搜索引擎
+search_engines:
+  - google:
+    url: "https://www.google.com/search"
+    params: "tbs=qdr:h" # 过去一小时
+  - bing:
+    url: "https://www.bing.com/search"
+    params: "FORM=HDRSC1"
+  - duckduckgo:
+    url: "https://duckduckgo.com/html/"
+  - baidu:
+    url: "https://www.baidu.com/s"
+  - yahoo:
+    url: "https://search.yahoo.com/search"
+
+# 分析方法
+analysis_methods:
+  - 军事动向分析
+  - 外交动向分析
+  - 经济影响分析
+  - 地区关联分析
+  - 伤亡情况分析
+  - 国际介入分析
+
+# 报告格式
+report_format:
+  - 时间戳
+  - 新闻数量统计
+  - 趋势分析图表
+  - 风险评估
+  - 建议措施
+  - 重要新闻摘要
+
+# 数据存储
+data_storage:
+  json_path: "/root/.openclaw/workspace/iran_monitor_data.json"
+  report_path: "/root/.openclaw/workspace/iran_monitor_report.txt"
+  archive_path: "/root/.openclaw/workspace/iran_monitor_archive/"
+
+# 通知设置
+notification:
+  enabled: true
+  channel: "yuanbao"
+  recipient: "老铁"
+  format: "伊朗战况监控报告"
+  priority: "实时更新"

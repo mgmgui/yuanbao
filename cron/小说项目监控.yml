@@ -1,0 +1,10 @@
+# 小说项目监控定时任务配置
+name: 小说项目5分钟监控
+schedule: "*/5 * * * *"  # 每5分钟执行一次
+module: ./cron/小说项目监控定时任务.js
+function: runMonitorTask
+output_format: text
+channel: yuanbao  # 发送到元宝频道
+
+# 任务说明
+description: 每10分钟检查小说创作团队进度，确保团队正常运转，解决任何问题，推进小说创作一篇一篇交付

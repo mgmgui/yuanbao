@@ -1,0 +1,36 @@
+tasks:
+  - name: 小说创作项目监控
+    schedule: "*/10 * * * *"  # 每10分钟执行一次
+    module: ./run_tasks.js
+    function: runTask
+    args: ["小说创作项目监控"]
+    output_format: text
+    channel: yuanbao
+    
+  - name: 财经监控
+    schedule: "*/30 * * * *"  # 每半小时执行一次
+    module: ./run_tasks.js
+    function: runTask
+    args: ["财经监控"]
+    output_format: text
+    channel: yuanbao
+    
+  - name: 国际局势监控
+    schedule: "0 * * * *"  # 每小时执行一次
+    module: ./run_tasks.js
+    function: runTask
+    args: ["国际局势监控"]
+    output_format: text
+    channel: yuanbao
+    
+  - name: 定时任务执行监控
+    schedule: "*/5 * * * *"  # 每5分钟执行一次
+    module: ./run_tasks.js
+    function: runTask
+    args: ["定时任务执行监控"]
+    output_format: text
+    channel: yuanbao
+    
+meta:
+  description: "自动监控小说创作项目、财经行情和国际局势"
+  version: 1.0

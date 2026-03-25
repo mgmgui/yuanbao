@@ -1,0 +1,91 @@
+# 伊朗战况监控定时任务
+# 每半小时执行一次
+
+name: "伊朗战况新闻监控"
+description: "每半小时监控伊朗冲突相关新闻并生成报告发送给用户"
+schedule: "*/30 * * * *"  # 每30分钟
+agent: "main"
+
+tasks:
+  - name: "伊朗战况监控"
+    steps:
+      - exec:
+          command: "node /root/.openclaw/workspace/iran_monitor_full.js"
+          workdir: "/root/.openclaw/workspace"
+      
+      - exec:
+          command: |
+            # 读取最新报告并发送通知
+            latest_report=$(find /root/.openclaw/workspace -name "iran_monitor_report_*.txt" -type f -exec ls -1t {} \; | head -1)
+            if [ -f "$latest_report" ]; then
+              echo "伊朗战况监控报告完成"
+              cat "$latest_report" | tail -20
+            fi
+        
+    notify:
+      - channel: yuanbao
+        target: "老铁"
+        message: "伊朗战况监控报告已生成，请查看详情"
+        
+  - name: "清理旧报告文件"
+    schedule: "0 0 * * *"  # 每天午夜
+    steps:
+      - exec:
+          command: |
+            # 保留最近7天的报告，删除旧的
+            find /root/.openclaw/workspace -name "iran_monitor_report_*.txt" -type f -mtime +7 -delete
+            find /root/.openclaw/workspace -name "iran_monitor_data_*.json" -type f -mtime +7 -delete
+            
+# 报告通知模板
+report_template:
+  title: "伊朗战况监控报告"
+  format: |
+    监控时间: {timestamp}
+    新闻数量: {news_count}
+    风险等级: {risk_level}
+    趋势分析:
+      • 军事: {military}
+      • 外交: {diplomatic}
+      • 经济: {economic}
+      • 伤亡: {casualties}
+    建议措施: {recommendation}
+    
+  variables:
+    timestamp: "从report.监控时间获取"
+    news_count: "从report.新闻数量获取"
+    risk_level: "从report.风险评估.等级获取"
+    military: "从report.趋势分析.军事获取"
+    diplomatic: "从report.趋势分析.外交获取"
+    economic: "从report.趋势分析.经济获取"
+    casualties: "从report.趋势分析.伤亡获取"
+    recommendation: "从report.建议措施[0]获取"
+    
+# 监控配置
+config:
+  keywords:
+    - "Iran conflict"
+    - "Iran war"
+    - "Iran-Israel"
+    - "Middle East conflict"
+    - "Iran military"
+    
+  languages:
+    - "中文"
+    - "英文"
+    
+  sources:
+    - "新华网"
+    - "人民日报"
+    - "中央电视台"
+    - "国际在线"
+    - "环球时报"
+    - "CNN国际"
+    - "BBC中文网"
+    - "俄罗斯新闻社"
+    
+  analysis_focus:
+    - "军事动向"
+    - "外交进展"
+    - "经济影响"
+    - "人道主义"
+    - "国际立场"

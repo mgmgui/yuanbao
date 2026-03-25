@@ -1,0 +1,26 @@
+{
+  "name": "伊朗战况新闻监控",
+  "description": "每半小时监控伊朗冲突最新动态",
+  "schedule": "*/30 * * * *",  // 每30分钟
+  "agent": "main",
+  "task": "执行伊朗战况新闻监控并发送报告",
+  "steps": [
+    {
+      "exec": {
+        "command": "node /root/.openclaw/workspace/iran_monitor_simple.js",
+        "workdir": "/root/.openclaw/workspace"
+      }
+    },
+    {
+      "exec": {
+        "command": "/root/.openclaw/workspace/iran_monitor_task.sh",
+        "workdir": "/root/.openclaw/workspace"
+      }
+    }
+  ],
+  "notify": {
+    "channel": "yuanbao",
+    "target": "KNeARoOazRIDFH0xZYQGCjBUULUcsfPHmqrsAbTOM+o=",
+    "message": "伊朗战况监控报告已生成，请查看最新报告文件"
+  }
+}
