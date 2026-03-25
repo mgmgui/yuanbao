@@ -1,0 +1,25 @@
+# Git忽略文件
+
+# 依赖文件
+node_modules/
+package-lock.json
+
+# 敏感信息
+*.env
+*.key
+*.secret
+
+# 日志文件
+logs/
+
+# 大文件
+*.tar.gz
+*.zip
+
+# OpenClaw配置
+.openclaw/
+
+# 技能缓存
+.clawhub/
+
+# 其他不需要的文件
