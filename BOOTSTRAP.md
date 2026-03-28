@@ -24,6 +24,9 @@
 	- 协作风格
 	- 禁止事项
 4. 建立 memory/YYYY-MM-DD.md 并写入首条会话记录。
+5. 运行 startup 回归校验:
+	- 若任一启动文件缺失或顺序异常，执行 `operations/escalation/startup-regression-self-repair-checklist.md`。
+	- 自修失败后再走 issue 升级流程。
 
 ## 3. 完成条件
 

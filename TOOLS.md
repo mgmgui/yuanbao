@@ -27,3 +27,9 @@
 - 任务调度: cron_tasks.yml, run_tasks.js
 - 监控脚本: *_monitor*.js, *_cron*.js
 - 启动脚本: 启动所有定时任务.sh, 启动小说项目监控.sh
+
+## 6. 回归自修入口（强制）
+
+- 运行失败通用自修: operations/escalation/local-self-repair-checklist.md
+- 启动顺序回归自修: operations/escalation/startup-regression-self-repair-checklist.md
+- 升级模板: .github/ISSUE_TEMPLATE/ops-escalation.yml

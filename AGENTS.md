@@ -55,6 +55,7 @@
 ## 7. 升级与 Issue 流程
 
 - 先执行本地自修清单，再允许升级。
+- 启动顺序或启动文件回归异常，先执行 operations/escalation/startup-regression-self-repair-checklist.md。
 - 升级必须使用 .github/ISSUE_TEMPLATE/ops-escalation.yml。
 - Issue 必须包含: 影响、复现、日志、已尝试方案、优先级、负责人、关闭标准。
 

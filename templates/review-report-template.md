@@ -2,8 +2,12 @@
 
 - 文档编号:
 - 评审日期:
-- 评审人:
+- 评审人(R):
+- 问责人(A):
 - 被评审产物:
+- 上游 owner:
+- 下游 owner:
+- RACI 参考: openspec/changes/upgrade-openclaw-governance-sop-pipeline/raci-matrix.md
 
 ## 1. 维度评分
 
@@ -20,11 +24,15 @@
 - 总分:
 - 关键项通过情况:
 - 结果: PASS / REJECT
+- 结论时间:
+- 结论责任人:
 
 ## 3. 若驳回，填写以下内容
 
 - 驳回码:
+- 失败证据路径:
 - 重写范围:
 - 必改项:
 - 重写截止时间:
 - 责任人:
+- 回归入口阶段: Draft / Review

@@ -46,6 +46,8 @@
 - 小红书 SOP: standards/publication/xiaohongshu-sop.md
 - 双平台交付包标准: standards/publication/dual-output-package-standard.md
 - 发布前清单: templates/pre-publish-validation-checklist.md
+- 七阶段入场/出场模板: templates/stage-entry-exit-criteria-template.md
+- 升级报告模板: templates/escalation-report-template.md
 
 ## 进度与升级机制
 
@@ -55,6 +57,13 @@
 - 本地自修清单: operations/escalation/local-self-repair-checklist.md
 - Issue 优先级: operations/escalation/issue-priority-and-sla.md
 - GitHub Issue 模板: .github/ISSUE_TEMPLATE/ops-escalation.yml
+
+## Go-Live 后审计节拍
+
+- 每日 20:30: heartbeat 巡检（阻塞/驳回/日志缺失）
+- 每周五 18:00: 治理复盘（路径合规、门禁通过率、升级闭环）
+- 每月最后一个工作日: 仓库卫生审计（新增文件落位、命名、归档映射）
+- 每季度第一个周三: SOP 与平台规范基线复核（微信/小红书规则更新）
 
 ## 历史说明
 
