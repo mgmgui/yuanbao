@@ -24,6 +24,108 @@
       "zip_url": "https://lightmake.site/api/v1/download?slug=agent-browser",
       "source": "skillhub",
       "version": "0.2.0"
+    },
+    "summarize": {
+      "name": "Summarize",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=summarize",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "self-improving": {
+      "name": "Self-Improving + Proactive Agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving",
+      "source": "skillhub",
+      "version": "1.2.16"
+    },
+    "humanizer": {
+      "name": "Humanizer",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=humanizer",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "baidu-search": {
+      "name": "baidu web search",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=baidu-search",
+      "source": "skillhub",
+      "version": "1.1.0"
+    },
+    "api-gateway": {
+      "name": "API Gateway",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=api-gateway",
+      "source": "skillhub",
+      "version": "1.0.54"
+    },
+    "openai-whisper": {
+      "name": "Openai Whisper",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=openai-whisper",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "skill-creator": {
+      "name": "Skill Creator",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=skill-creator",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "mcporter": {
+      "name": "Mcporter",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=mcporter",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "automation-workflows": {
+      "name": "Automation Workflows",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=automation-workflows",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "youtube-watcher": {
+      "name": "YouTube Watcher",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=youtube-watcher",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "codeconductor": {
+      "name": "CodeConductor.ai",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=codeconductor",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "stock-analysis": {
+      "name": "Stock Analysis",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=stock-analysis",
+      "source": "skillhub",
+      "version": "6.2.0"
+    },
+    "humanize-ai-text": {
+      "name": "Humanize AI text",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=humanize-ai-text",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "browser-use": {
+      "name": "Browser Use",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=browser-use",
+      "source": "skillhub",
+      "version": "1.0.2"
+    },
+    "news-summary": {
+      "name": "News Summary",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=news-summary",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "find-skills": {
+      "name": "Find Skills",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=find-skills",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "brave-search": {
+      "name": "Brave Search",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=brave-search",
+      "source": "skillhub",
+      "version": "1.0.1"
     }
   }
 }

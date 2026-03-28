@@ -1,40 +1,29 @@
-# TOOLS.md - Local Notes
+# TOOLS.md - 本地环境约束与工具备忘
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## 1. 用途
 
-## What Goes Here
+记录本地环境相关信息，不写业务策略，不写敏感凭据。
 
-Things like:
+## 2. 可记录内容
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+- 本地脚本入口与常用命令
+- 目录约定与路径注意事项
+- 监控脚本执行节奏和日志位置
+- 需要人工确认的高风险操作清单
 
-## Examples
+## 3. 严禁记录
 
-```markdown
-### Cameras
+- API key、token、密码、私钥
+- 任何可直接用于登录的敏感信息
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+## 4. 操作安全要求
 
-### SSH
+- 删除操作优先可恢复方案，避免不可逆清理。
+- 迁移操作先做映射记录，再执行移动。
+- 外部写操作（邮件、发帖、外发消息）默认需确认。
 
-- home-server → 192.168.1.100, user: admin
+## 5. 当前仓库关键入口（备忘）
 
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+- 任务调度: cron_tasks.yml, run_tasks.js
+- 监控脚本: *_monitor*.js, *_cron*.js
+- 启动脚本: 启动所有定时任务.sh, 启动小说项目监控.sh

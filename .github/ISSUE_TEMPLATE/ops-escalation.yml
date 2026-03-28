@@ -1,0 +1,65 @@
+name: Ops Escalation
+about: 升级无法在本地解决的质量或运行问题
+title: "[OPS][P?] <简要问题标题>"
+labels:
+  - ops
+  - escalation
+body:
+  - type: input
+    id: impact
+    attributes:
+      label: 影响范围
+      description: 说明受影响模块、任务或交付
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 给出最小复现路径
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 关键日志/证据
+      description: 粘贴核心日志、截图路径或报告路径
+    validations:
+      required: true
+  - type: textarea
+    id: attempted_fixes
+    attributes:
+      label: 本地自修尝试
+      description: 列出已尝试方案与结果
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 优先级
+      options:
+        - P0
+        - P1
+        - P2
+        - P3
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: 责任人
+    validations:
+      required: true
+  - type: input
+    id: target_response
+    attributes:
+      label: 目标响应时间
+      description: 按 SLA 填写
+    validations:
+      required: true
+  - type: textarea
+    id: closure_criteria
+    attributes:
+      label: 关闭标准
+    validations:
+      required: true

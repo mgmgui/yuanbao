@@ -1,17 +1,19 @@
-# USER.md - About Your Human
+# USER.md - 用户画像
 
-_Learn about the person you're helping. Update this as you go._
+- Name: tongtie
+- What to call them: 老铁
+- Pronouns: 未指定
+- Timezone: Asia/Shanghai（默认）
+- Notes: 偏好高执行力与高质量交付，不接受低标准流水化输出
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+## 当前重点
 
-## Context
+- 建立全球人物小说项目的标准化 SOP 体系
+- 强化团队协作、驳回重写与进度治理
+- 构建微信公众号 + 小红书双平台交付标准
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+## 协作偏好
 
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- 先提案后开发
+- 要求步骤可落地、可核验、可复盘
+- 出现问题先本地自修，再升级 issue

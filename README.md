@@ -1,160 +1,61 @@
-# yuanbao - OpenClaw定时任务监控系统
+# yuanbao 项目治理与交付系统
 
-OpenClaw定时任务监控系统，包含小说创作项目监控、财经监控和国际局势监控等功能。
+本仓库已升级为“规范先行、门禁驱动、双平台交付”的治理模式。
 
-## 完整的定时任务SOP流程
+核心目标:
 
-### 1. 小说创作项目监控（每10分钟执行）
+- 用统一 SOP 驱动从立项到归档的全流程
+- 用严格质量门禁与驳回机制保证交付质量
+- 用标准目录与模板降低协作摩擦
 
-**触发消息**: "小说创作项目监控"
-**执行流程**:
-```
-1. 检查小说创作进度
-2. 故事大纲预审（如果有新人物开始创作）
-3. 大纲预审通过后启动创作团队（4个子Agent）
-4. 检查评审结果
-5. 检查创作进度
-6. 生成监控报告
-7. 发送报告到元宝频道
-```
+## 快速导航
 
-**监控要点**:
-- 大纲预审：矛盾冲突、人物塑造、情节结构、文学价值
-- 评审标准：达到矛盾小说拿奖标准（≥85分）
-- 质量控制：一篇一篇交付，不合格重写
-- 优化点：增加了大纲预审环节，确保故事走向符合预期，减少返工
+### 角色导航
 
-### 2. 财经监控（每半小时执行）
+- 项目管理: operations/sop/master-delivery-sop.md
+- 研究与创作: operations/sop/master-delivery-sop.md
+- 评审团队: operations/quality/review-gates-and-rejection-loop.md
+- 平台改写团队:
+	- standards/publication/wechat-sop.md
+	- standards/publication/xiaohongshu-sop.md
+- 交付与运营团队:
+	- operations/handoff/team-handoff-protocol.md
+	- operations/progress/todo-status-model.md
+	- operations/escalation/local-self-repair-checklist.md
 
-**触发消息**: "财经监控"
-**执行流程**:
-```
-1. 收集金融市场数据（股票、基金、可转债、黄金、商品）
-2. 检查异常波动警报（超过3%视为异常）
-3. 寻找异常波动原因
-4. 生成决策辅助分析（市场趋势、投资机会、风险提示）
-5. 生成监控报告
-6. 发送报告到元宝频道
-```
+### 仓库目录
 
-**监控要点**:
-- 异常波动警报：股票超过3%，基金超过2%
-- 决策辅助：市场趋势分析、投资机会发现、风险建议
-- 重点关注：股票异常波动、黄金价格变化、大宗商品走势
-- 优化点：增加了决策辅助和风险预警功能
+- projects/: 项目执行资料
+- deliverables/: 可发布交付物
+- operations/: SOP、质检、交接、进度、升级规则
+- standards/: 命名与发布标准
+- templates/: 各类模板
+- archive/: 归档索引与迁移日志
 
-### 3. 国际局势监控（每小时执行）
+## 当前治理标准入口
 
-**触发消息**: "国际局势监控"
-**执行流程**:
-```
-1. 收集多信源新闻（新华社、BBC、路透社、CNN、半岛电视台）
-2. 中东局势综合分析（美以伊战况）
-3. 关键事件摘要
-4. 冲突分析（军事冲突、政治关系、经济影响、人道主义）
-5. 风险评估（军事风险、政治风险、经济风险、人道主义风险）
-6. 趋势预测（短期、中期、长期）
-7. 生成综合简报
-8. 保存分析结果到 memory/中东局势分析.md
-9. 发送简报到元宝频道
-```
+- 基线盘点: docs/governance/01-baseline-inventory-and-scope-freeze.md
+- 路径映射草案: docs/governance/02-path-mapping-draft.md
+- 命名规范: standards/naming-conventions.md
+- 仓库治理规则: standards/repository-governance.md
+- 归档索引: archive/ARCHIVE_INDEX.md
 
-**监控要点**:
-- 信源多样性：官方视角、国际视角、商业视角、西方视角、阿拉伯视角
-- 综合分析：军事冲突、政治关系、经济影响、人道主义
-- 风险评估：军事风险、政治风险、经济风险、人道主义风险
-- 趋势预测：短期、中期、长期趋势
-- 优化点：升级为中东局势综合分析，从单一事件跟踪升级为区域局势分析
+## 双平台交付规范
 
-### 4. 定时任务执行监控（每5分钟执行）
+- 微信公众号 SOP: standards/publication/wechat-sop.md
+- 小红书 SOP: standards/publication/xiaohongshu-sop.md
+- 双平台交付包标准: standards/publication/dual-output-package-standard.md
+- 发布前清单: templates/pre-publish-validation-checklist.md
 
-**触发消息**: "定时任务执行监控"
-**执行流程**:
-```
-1. 检查所有定时任务配置
-2. 检查任务执行日志
-3. 分析任务运行状态
-4. 检查资源使用情况（内存、磁盘、CPU）
-5. 识别问题并给出建议
-6. 生成监控报告
-7. 发送报告到元宝频道
-```
+## 进度与升级机制
 
-**监控要点**:
-- 任务配置状态：调度、模块状态、执行状态
-- 执行日志统计：日志数量、最新日志、总行数
-- 资源使用监控：内存、磁盘、CPU负载检查
-- 问题识别：缺失模块、无日志记录、状态未知
-- 优化点：全面的任务监控和问题识别
+- 状态模型: operations/progress/todo-status-model.md
+- 监控联动: operations/progress/monitoring-integration.md
+- 升级规则: operations/progress/blocker-risk-escalation-rules.md
+- 本地自修清单: operations/escalation/local-self-repair-checklist.md
+- Issue 优先级: operations/escalation/issue-priority-and-sla.md
+- GitHub Issue 模板: .github/ISSUE_TEMPLATE/ops-escalation.yml
 
-### 定时任务配置状态
+## 历史说明
 
-✅ **所有定时任务已成功配置并启用**:
-- 小说创作项目监控：`f28f622c-37dd-4984-ba35-6253bb047310` (每10分钟)
-- 财经监控：`4ca573e7-cb45-457c-9bb0-073b8fcede27` (每半小时)
-- 国际局势监控：`4f1dd91c-8629-47ed-ace7-3fae3c82bf4c` (每小时)
-- 定时任务执行监控：`98f82076-9b09-42b7-a594-41a617d02266` (每5分钟)
-
-✅ **所有脚本已优化完善**：
-- 小说创作项目监控：增加了大纲预审环节和详细的评审维度
-- 财经监控：增加了决策辅助和风险预警功能
-- 国际局势监控：升级为综合分析和趋势预测
-- 定时任务执行监控：增加了资源监控和问题识别
-
-✅ **执行机制已建立**：
-- OpenClaw cron系统已配置完成
-- 定时任务会自动发送消息到我这里
-- 我收到消息会自动执行对应的监控脚本
-- 监控结果会自动推送到元宝频道
-
-### 完整的运行流程
-
-```
-📊 定时任务监控系统 (已优化)
-├── 📚 小说创作项目监控 (每10分钟)
-│   ├── 进度检查 → 大纲预审 → 创作启动 → 评审检查 → 报告生成 → 元宝发送
-│   ├── 优化点：大纲预审环节，减少返工
-├── 📈 财经监控 (每30分钟)
-│   ├── 数据收集 → 波动警报 → 决策辅助 → 趋势分析 → 报告生成 → 元宝发送
-│   ├── 优化点：决策辅助功能，风险预警
-├── 🌍 国际局势监控 (每小时)
-│   ├── 信源收集 → 局势分析 → 风险评估 → 趋势预测 → 简报生成 → 元宝发送
-│   ├── 优化点：中东局势综合分析
-├── 🔄 定时任务执行监控 (每5分钟)
-│   ├── 任务配置检查 → 日志分析 → 状态监测 → 资源检查 → 报告生成 → 元宝发送
-│   ├── 优化点：全面的任务监控和问题识别
-```
-
-## 监控机制设计
-
-1. **智能触发**: 定时任务触发特定消息，我收到消息后识别并执行对应脚本
-2. **自动执行**: 定时任务自动发送消息，我自动运行对应监控脚本
-3. **全面监控**: 覆盖进度、质量、效率、资源等多维度
-4. **异常处理**: 识别异常情况并及时报警
-5. **报告推送**: 所有监控结果自动发送到元宝频道
-
-## 定时任务配置方法
-
-```
-openclaw cron add --name "小说创作项目监控" --cron "*/10 * * * *" --agent default --message "小说创作项目监控" --channel yuanbao --deliver
-openclaw cron add --name "财经监控" --cron "*/30 * * * *" --agent default --message "财经监控" --channel yuanbao --deliver
-openclaw cron add --name "国际局势监控" --cron "0 * * * *" --agent default --message "国际局势监控" --channel yuanbao --deliver
-openclaw cron add --name "定时任务执行监控" --cron "*/5 * * * *" --agent default --message "定时任务执行监控" --channel yuanbao --deliver
-```
-
-## 下一步操作
-
-1. **等待定时执行**: 任务已排队，将在预定时间自动执行
-2. **监控第一次执行**: 观察各任务的首次运行情况
-3. **调整优化**: 根据实际运行效果调整监控参数
-4. **故障处理**: 建立异常处理机制
-
-## 技术特点
-- OpenClaw cron系统定时执行
-- Node.js脚本自动化监控
-- 多维度数据分析
-- 异常预警和决策辅助
-
-## 依赖
-- OpenClaw Gateway
-- Node.js环境
+旧版 README 中的定时任务说明仍可在现有脚本与配置文件中查阅；后续将逐步迁移到 operations/ 与 archive/ 下的标准文档中。
